@@ -11,4 +11,4 @@ The candidate instructions can be found:
 
 The marking instructions are in a private repo
 
-* [Marking Guide](https://equalexperts.github.io/ee-tech-interviews-uk-marking-guide)
+* [Marking Guide](https://github.com/EqualExperts/ee-tech-interviews-uk-marking-guide)
