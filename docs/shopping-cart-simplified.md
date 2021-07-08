@@ -7,11 +7,11 @@ It is designed to be a straightforward coding exercise, and it should take you n
 
 ## What we are looking for:
 
-**Code Design:** At Equal Experts we are keen to understand how you design your code. We do not expect a command line, web or any other type of application.
+**Code Design:** We are keen to understand how you design your code. We do not expect a command line, web or any other type of application.
 
-**Tests:** At Equal Experts we value unit testing, your solution should have tests with sufficient test coverage. 
+**Tests:** We value unit testing, your solution should have tests with sufficient test coverage. 
 
-**Simplicity:** At Equal Experts we value simplicity as an architectural virtue. Your solutions should reflect the difficulty of the assigned task, and should not be overly complex. Layers of abstraction, patterns, or architectural features that aren’t called for should not be included.
+**Simplicity:** We value simplicity as an architectural virtue. Your solutions should reflect the difficulty of the assigned task. Layers of abstraction, patterns, or architectural features that aren’t called for should not be included.
 
 **Self-explanatory code:** The code must speak for itself. Long comments explaining the solution is a sign of complexity. 
 
