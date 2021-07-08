@@ -1,28 +1,27 @@
 # Shopping Cart
 
-Please make sure you read this document in its entirety.
-
 ## Overview
-Please write code delivering the acceptance criterias that follow. The requirements don't mention a command line, web or any other type of application, and we are not looking for one. Do write code that you would be happy delivering to a paying client, keeping in mind the simplicity comments below.
+Please write code delivering the acceptance criterias (AC) that follow. 
 
-You should not find this test to be particularly difficult. It is designed to be a straightforward coding exercise, and it should take you no more than 90 minutes.
+It is designed to be a straightforward coding exercise, and it should take you no more than 90 minutes.
 
 ## What we are looking for:
 
-**Test Coverage:** The solution should have excellent unit tests and test coverage.
+**Code Design:** At Equal Experts we are keen to understand how you design your code. We do not expect a command line, web or any other type of application.
 
-**Simplicity:** We value simplicity as an architectural virtue and a development practice. Solutions should reflect the difficulty of the assigned task, and should not be overly complex. Layers of abstraction, patterns, or architectural features that aren’t called for should not be included.
+**Tests:** At Equal Experts we value unit testing, your solution should have tests with sufficient test coverage. 
 
-**Self-explanatory code:** The solution you produce must speak for itself. Multiple paragraphs explaining the solution are a sign that it isn’t straightforward enough to understand purely by reading code, and are not appropriate.
+**Simplicity:** At Equal Experts we value simplicity as an architectural virtue. Your solutions should reflect the difficulty of the assigned task, and should not be overly complex. Layers of abstraction, patterns, or architectural features that aren’t called for should not be included.
+
+**Self-explanatory code:** The code must speak for itself. Long comments explaining the solution is a sign of complexity. 
 
 
-## The problem
+## The problem statment - Acceptance Criterias
 
-As you work through the acceptance criterias, you'll create code to allow a user to add products to a shopping cart,  calculate the total price and then the sales tax for the items contained in the cart. As mentioned previously, we are not looking for a command line or a web application, so please just use your tests to drive the code (e.g. class libraries).
+Create a shopping cart, add products to it, calculate the total price and sales tax for the items contained in the cart. 
 
-***Please Note***: All totals should be rounded up to 2 decimal places, i.e. 0.565 should result in 0.57 but 0.5649 should result in 0.56.  This is baisically the same rounding you learned at school, but you can [follow this link](http://www.clivemaxfield.com/diycalculator/sp-round.shtml#A3) if you really want more details.
 
-### Add products to the shopping cart.
+### AC 1 : Add products.
 
 Given:
 *	An empty shopping cart
@@ -35,9 +34,10 @@ When:
 Then:
 *	The shopping cart should contain 8 Dove Soaps each with a unit price of _39.99_
 *	And the shopping cart's total price should equal _319.92_
+* All totals should be rounded up to 2 decimal places, i.e. 0.565 should result in 0.57 but 0.5649 should result in 0.56. You can [follow this link](http://www.clivemaxfield.com/diycalculator/sp-round.shtml#A3) if you want more details.
 
 
-### Calculate the tax rate of the shopping cart with multiple items if applicable
+### AC 2 : Calculate tax rate with multiple items if applicable
 
 Given:
 *	An empty shopping cart
@@ -52,5 +52,7 @@ When:
 Then:
 *	The shopping cart should contain 2 Dove Soaps each with a unit price of _39.99_
 *	And the shopping cart should contain 2 Axe Deos each with a unit price of _99.99_
-*   And the total sales tax amount for the shopping cart should equal _35.00_
+* And the total sales tax amount for the shopping cart should equal _35.00_
 *	And the shopping cart's total price should equal _314.96_
+*	All totals should be rounded up to 2 decimal places as described in AC 1. 
+
