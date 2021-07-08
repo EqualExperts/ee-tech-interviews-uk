@@ -3,7 +3,7 @@
 Please make sure you read this document in its entirety.
 
 ## Overview
-Please write code delivering the requirements of the steps that follow. The requirements don't mention a command line, web or any other type of application, and we are not looking for one. Do write code that you would be happy delivering to a paying client, keeping in mind the simplicity comments below.
+Please write code delivering the acceptance criterias that follow. The requirements don't mention a command line, web or any other type of application, and we are not looking for one. Do write code that you would be happy delivering to a paying client, keeping in mind the simplicity comments below.
 
 You should not find this test to be particularly difficult. It is designed to be a straightforward coding exercise, and it should take you no more than 90 minutes.
 
