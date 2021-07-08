@@ -7,6 +7,15 @@ Please write code delivering the requirements of the steps that follow. The requ
 
 You should not find this test to be particularly difficult. It is designed to be a straightforward coding exercise, and it should take you no more than 90 minutes.
 
+## What we are looking for:
+
+**Test Coverage:** The solution should have excellent unit tests and test coverage.
+
+**Simplicity:** We value simplicity as an architectural virtue and a development practice. Solutions should reflect the difficulty of the assigned task, and should not be overly complex. Layers of abstraction, patterns, or architectural features that aren’t called for should not be included.
+
+**Self-explanatory code:** The solution you produce must speak for itself. Multiple paragraphs explaining the solution are a sign that it isn’t straightforward enough to understand purely by reading code, and are not appropriate.
+
+
 ## The problem
 
 As you work through the acceptance criterias, you'll create code to allow a user to add products to a shopping cart,  calculate the total price and then the sales tax for the items contained in the cart. As mentioned previously, we are not looking for a command line or a web application, so please just use your tests to drive the code (e.g. class libraries).
